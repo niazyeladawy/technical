@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-color: #003680;
+}
+
+
+.btn-main{
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+/* hotels*/
+
+
+section.hotels {
+    background: url(../images/hero.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+section.hotels .form-cont .dropdown-toggle::after{
+    display: none;
+}
+
+#nation i{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.egy{
+    background: url(../images/Flag_of_Egypt.svg.png) no-repeat center;
+    background-size: contain;
+}
+.country-select ,
+#nation{
+    width: 100%;
+}
+/* hotels*/
